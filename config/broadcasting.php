@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('BROADCAST_DRIVER', 'null'),
+    'default' => 'pusher',//env('BROADCAST_DRIVER', 'null')
 
     /*
     |--------------------------------------------------------------------------

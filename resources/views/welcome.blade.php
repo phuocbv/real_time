@@ -55,7 +55,7 @@
                 font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
-                text-decoration: none;
+                text-decoration: one;
                 text-transform: uppercase;
             }
 
@@ -63,6 +63,25 @@
                 margin-bottom: 30px;
             }
         </style>
+        <script type="text/javascript">
+            console.log('ss');
+            $.ajax({
+                url: '/path/to/file',
+                type: 'default GET (Other values: POST)',
+                dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+                data: {param1: 'value1'},
+            })
+            .done(function() {
+                console.log("success");
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            });
+            
+        </script>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
