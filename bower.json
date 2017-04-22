@@ -1,0 +1,30 @@
+{
+  "name": "dacuoi",
+  "description": "cuoiconduong",
+  "main": "main",
+  "authors": [
+    "da cuoi <buivanphuocforyou@gmail.com>"
+  ],
+  "license": "no",
+  "keywords": [
+    "abc"
+  ],
+  "homepage": "https://github.com/phuocbv/real_time",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.4.2",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-local-storage": "^0.5.2",
+    "restangular": "^1.6.1"
+  }
+}

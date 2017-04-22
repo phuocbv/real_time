@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Events\HelloPusherEvent;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -31,5 +32,12 @@ class HomeController extends Controller
     {
         event(new HelloPusherEvent('Hi there Pusher!'));
         return "Event has been sent!";
+    }
+
+    public function getInfoUser($id)
+    {
+        $user = User::find($id);
+
+        return response()->json($user);
     }
 }

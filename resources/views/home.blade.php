@@ -14,6 +14,7 @@
         </div>
     </div>
 </div>
-  <script src="https://js.pusher.com/4.0/pusher.min.js"></script>
-  <script src="{{ asset('js/pusher.js') }}"></script>
+
+<script src="https://js.pusher.com/4.0/pusher.min.js"></script>
+<script src="{{ asset('js/pusher.js') }}"></script>
 @endsection
